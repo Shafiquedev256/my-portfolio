@@ -5,7 +5,7 @@ export const Header = ()=>{
   
   return(
     <>
-<header className=" text-white py-4">
+<header className="bg-black text-white py-4 font-sans">
       <div className="container mx-auto flex items-center justify-between pl-3">
         <div className="md:text-3xl font-bold text-2xl text-[#f1f1f1]">Shafiq</div>
         <nav className="space-x-4 flex flex-row items-center mr-2">
