@@ -9,9 +9,9 @@ export const Header = ()=>{
       <div className="container mx-auto flex items-center justify-between pl-3">
         <div className="md:text-3xl font-bold text-2xl text-[#f1f1f1]">Shafiq</div>
         <nav className="space-x-4 flex flex-row items-center mr-2">
-       <div><img src={githubLogo}/></div>
-       <div><img src={linkedinLogo}/></div>
-       <div><img src={gmailLogo}/></div>
+       <a href="https://github.com/Shafiquedev256?tab=overview&from=2024-01-01&to=2024-01-30"><img src={githubLogo}/></a>
+       <a href="https://www.linkedin.com/in/musinguzi-shafiq-ug?trk=contact-info"><img src={linkedinLogo}/></div>
+       <a href="shafiquedev256@gmail.com"><img src={gmailLogo}/></a>
         </nav>
       </div>
     </header>
