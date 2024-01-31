@@ -6,10 +6,11 @@ export const Projects = ()=>{
     <> 
       <div className="font-light text-2xl ml-2 my-3">Projects</div> 
       <div className="m-3">
-      <a href="www.example.g" className="font-bold border-0 border-b-[2px] border-b-purple-600"> Game store </a> 
+      <div className="font-bold border-0 border-b-[2px] border-b-purple-600 w-fit"> Game store </div> 
       <div className="w-72 text-sm space-y-2 bg-gray-100 p-2 rounded my-2"> 
-      Game store is all about searching for games , add them to your cart and check out .
-      I created game store website due to my love for selling games. Back in the days when I was young I always wanted to sell games , just because I used to see my friend spend a lot of money buying video games Lol. I used React , Tailwindcss and Redux for frontend. For the backend I used Expressjs , Nodejs , and Mongo dB. I created the backend Api just because I couldn't find any api for games and trailers at the same time , then I was like "why suffer when i have the super powers of Mern stack" and just like that the Api was created.
+      <p>
+      I built a game store website fueled by my passion for video games. Using React, Tailwind CSS, Typescript, and Redux for the frontend, and Express.js, Node.js, and MongoDB for the backend (powered by the MERN stack), I crafted an API to seamlessly integrate games and trailers into the platform. This venture was inspired by my desire to make game buying simpler, leveraging my love for the MERN stack to create a tailored solution.</p> 
+     <a href="https://games-store-sandy.vercel.app/"> <div  className=" border-0 p-2  bg-blue-100 text-blue-900 font-bold text-sm rounded w-fit">live site</div></a>
       </div>
       </div>
     </>
