@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.border-gradient {
+  border-image:  linear-gradient(#f6b7, #dadbf1) 30;
+}
+.bg-img{
+  background-image: url("/src/assets/bgimg.jpeg");
+}
