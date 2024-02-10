@@ -4,9 +4,9 @@ export const Skills = ()=>{
   
   return (
     <>
-    <div className="mx-2 relative h-fit md:flex md:flex-row md:w-3/6 md:justify-evenly"> 
+    <div className="mx-2 relative h-fit md:flex md:flex-row md:w-[90%]  md:justify-evenly mf:items-center md:ml-10"> 
     <div>
-     <div className="font-light text-2xl  my-3">Skills</div> 
+     <div className="font-light text-2xl  my-3 pl-2">Skills</div> 
      <ul className="space-y-1 p-3">
      <li>Communication</li>
      <li>Quick learning</li>
@@ -23,7 +23,7 @@ export const Skills = ()=>{
      <div className="w-[50%] h-[50%] absolute p-3  top-0 right-0 border-0  border-t-2  border-r-[#f6b7]   rounded-tr-2xl   border-r-2 border-t-[#dadbf1]"></div> 
      
      <div>
-     <div className="font-light text-2xl  my-3">Tools</div>  
+     <div className="font-light text-2xl  my-3 pl-3">Tools</div>  
      <ul className="space-y-1 p-3">
      <li>React js</li>
      <li>Tailwind css</li>

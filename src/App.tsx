@@ -2,7 +2,8 @@ import {Header} from "./components/header"
 import {Intro} from "./components/intro" 
 import {About} from "./components/about"  
 import {Projects} from "./components/projects"  
-import {Skills} from "./components/Skills"
+import {Skills} from "./components/Skills" 
+import {HireMe} from "./components/whyHire"
 
 function App() {
   
@@ -12,10 +13,9 @@ function App() {
     <Header/> 
     <Intro/> 
     <About/> 
-    <div className="md:flex md:flex-row md:justify-evenly">
+     <Skills/>
     <Projects/> 
-    <Skills/>
-    </div>
+    <HireMe/>
     </>
   )
 }
