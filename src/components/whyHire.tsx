@@ -6,10 +6,15 @@ export const HireMe = ()=>{
     <>
     <div className="m-2"> 
     <div className="font-light text-2xl ml-2 my-3">Why hire me?</div>
-    <div className="flex md:flex-row md:items-center flex-col justify-center items-center">
+    <div className="flex md:flex-row justify-center flex-col md:justify-evenly items-center">
     <img src={shakeHand} className="w-52 "/>
     <div>
-As an innovative problem solver, I leverage my expertise in web programming to craft intelligent and creative solutions tailored to meet your specific challenges. With a keen eye for detail and a passion for staying ahead of industry trends, I ensure that my solutions not only address your current needs but also anticipate future demands. By combining technical prowess with a deep understanding of client objectives, I deliver results that exceed expectations and drive success. Hiring me means gaining a dedicated partner committed to transforming obstacles into opportunities through innovative thinking and effective web programming skills.
+  1. I am a full stack developer.<br/>
+  2. I focus on one project at a time. <br/>
+  3. I am able to learn new technologies in order to deliver high quality work. <br/>
+  4. I am self driven . <br/>
+  5. I will work at least 8 hours everyday (guaranteed). <br/>
+  6. I belive in effective communication.
     </div>
     </div>
     </div>
