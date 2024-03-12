@@ -18,15 +18,7 @@ const [openGym,setOpenGym] = useState(false)
      <a href="https://games-store-sandy.vercel.app/"> <div  className=" border-0 p-2  bg-[#f6b7] text-white font-bold text-sm rounded w-fit">live site</div></a>
       </div>
       </div> 
-      
-      <div className="m-3">
-      <div className="font-bold border-0 border-b-[2px] border-gradient w-fit" onClick={()=>{setOpenGym(!openGym)}}>Gym Daddy</div>  <div className="w-72 text-sm space-y-2 border-[2px] border-gradient  p-2   my-2"> 
-      <p>
-      I created Gym Daddy with the goal of assisting individuals in meticulously planning their workouts before setting foot in the gym. Recognizing the challenges my father faced in tracking progress and rep increments during his gym sessions, I addressed this concern by employing a tech stack that includes React, Tailwind CSS, Redux, TypeScript, MongoDB, and Express. The platform is designed to cater to both mobile and desktop users, prioritizing a mobile-first approach for enhanced accessibility on smartphones.
-      </p> 
-     <a href="https://gym-daddy.vercel.app/"> <div  className=" border-0 p-2  bg-[#f6b7] text-white font-bold text-sm rounded w-fit">live site</div></a>
-      </div>
-      </div> 
+    
       
       
       
