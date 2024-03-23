@@ -1,23 +1,36 @@
-import shakeHand from "../assets/silhouette-shaking-hands-3186564.png" 
+import shakeHand from "../assets/silhouette-shaking-hands-3186564.png";
 
-export const HireMe = ()=>{
-  
+export const HireMe = () => {
   return (
     <>
-    <div className="m-2"> 
-    <div className="font-light text-2xl ml-2 my-3">Why hire me?</div>
-    <div className="flex md:flex-row justify-center flex-col md:justify-evenly items-center">
-    <img src={shakeHand} className="w-52 "/>
-    <div>
-  1. I am a full stack developer.<br/>
-  2. I focus on one project at a time. <br/>
-  3. I am able to learn new technologies in order to deliver high quality work. <br/>
-  4. I am self driven . <br/>
-  5. I will work at least 8 hours everyday (guaranteed). <br/>
-  6. I belive in effective communication.
-    </div>
-    </div>
-    </div>
+      <div className='m-2'>
+        <div className='font-light text-2xl ml-2 my-3'>Why hire me?</div>
+        <div className='flex md:flex-row justify-center flex-col md:justify-evenly items-center'>
+          <img src={shakeHand} className='w-52 ' />
+          <div>
+            <div className='bg-blue-100 p-2 rounded my-2 text-blue-600 font-bold '>
+              I belive in effective communication.
+            </div>
+            <div className='bg-blue-100 p-2 rounded my-2 text-blue-600 font-bold '>
+              I'm proficient in both frontend and backend (MERN stack)
+            </div>
+            <div className='bg-blue-100 p-2 rounded my-2 text-blue-600 font-bold '>
+              I learn new technologies out of my stack in order to deliver high
+              quality work.
+            </div>
+            <div className='bg-blue-100 p-2 rounded my-2 text-blue-600 font-bold '>
+              I'm a resourceful problem solver
+            </div>
+            <div className='bg-blue-100 p-2 rounded my-2 text-blue-600 font-bold '>
+              I'm meticulous with details, ensuring error-free code
+            </div>
+            <div className='bg-blue-100 p-2 rounded my-2 text-blue-600 font-bold '>
+              I'm skilled in time management, adept at prioritizing tasks to
+              meet project deadlines.
+            </div>
+          </div>
+        </div>
+      </div>
     </>
-    )
-}
+  );
+};
