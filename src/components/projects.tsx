@@ -2,7 +2,7 @@ const work = [
   {
     title: "Game store",
     description:
-      "Creating an online place where video game can be easly accessed at affordabl prices was the main goal of innovating this work of art.  I crafted an API to seamlesslyintegrate games and trailers into the platform.IT IS 100% CORRECT I did not invent anything here and IT IS ALSO 100% TRUE I brought my young brother's idea to life",
+      "The primary objective was to establish an online platform for convenient access to video games at affordable rates. Crafting an API facilitated the seamless integration of games and trailers. While I didn't originate the concept, I ensured its realization using my skills. It's factual that I didn't invent anything; however, I proudly brought my younger brother's idea to fruition, infusing it with creativity and technical expertise.",
     tools: [
       "React",
       "Tailwind css",
@@ -16,7 +16,7 @@ const work = [
   {
     title: "Doctor simulator (AI Chatbot)",
     description:
-      "With the aim of providing accessible health advice and creating a platform for users toengage in AI-driven conversations about their well-being. AGAIN i didn't invent anything here , I simply used my strong mern stack and openai skill to create this work of art .",
+      "In my endeavor to contribute to accessible health guidance and facilitate meaningful discussions surrounding personal well-being, I embarked on the creation of a platform. This platform serves as a conduit for individuals seeking easily accessible health advice and engaging in AI-driven conversations pertinent to their holistic wellness. Leveraging my proficiency in the MERN stack alongside adept utilization of OpenAI capabilities, I meticulously crafted this innovative project. While it's important to note that the conceptualization of this endeavor wasn't mine, I took the initiative to bring it to fruition, employing my technical prowess to translate the vision into reality.",
 
     tools: [
       "React",
