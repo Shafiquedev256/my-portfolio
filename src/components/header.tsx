@@ -16,7 +16,7 @@ export const Header = () => {
             <a href='https://www.linkedin.com/in/musinguzi-shafiq-ug?trk=contact-info'>
               <img src={linkedinLogo} />
             </a>
-            <a href='mailto:shafiquedev256@gmail.com?subject=Hiring Musinguzi Shafiq wed dev'>
+            <a href='mailto:musinguzishafiq@outlook.com?subject=Hiring Musinguzi Shafiq wed dev'>
               <img src={gmailLogo} />
             </a>
           </nav>
