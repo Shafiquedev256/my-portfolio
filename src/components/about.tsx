@@ -2,10 +2,11 @@ import ShafiqImg from "../assets/149778835.png";
 
 export const About = () => {
   return (
-    <>
-      <div className='font-light text-2xl ml-2 my-3'>About Me</div>
+    <div className=''>
+      <div className='font-medium text-3xl ml-2 my-3'>About Me</div>
       <div className='md:flex md:flex-row border-gradient border-0 border-l-8 ml-2'>
-        <div className='  text-gray-900  pl-4 m-2 space-y-2'>
+        <div className='  text-gray-900 font-medium  pl-4 m-2 space-y-2'>
+          <p>I'm from Kampala Uganda.</p>
           <p>
             I developed an interest in programming while searching for a way to
             express who I am and what I believe in. My passion lies in crafting
@@ -16,7 +17,7 @@ export const About = () => {
           </p>
 
           <p>
-            Embarking on the MERN stack learning journey, I held a firm belief
+            Commencing on the MERN stack learning journey, I held a firm belief
             that the websites I build could transform the lives of like-minded
             individuals who share my beliefs.
           </p>
@@ -34,6 +35,6 @@ export const About = () => {
           className='rounded-b-2xl w-[300px] m-2'
         />
       </div>
-    </>
+    </div>
   );
 };
