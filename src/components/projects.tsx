@@ -35,7 +35,7 @@ const work = [
     highlight: "Mern stack  tourism website for Uganda ",
     shadow: "shadow-green-600",
     description:
-      "Tiour Uganda was created out of my deep love for my country. I wholeheartedly believe that Uganda is the Pearl of Africa, and I wanted to provide an opportunity for everyone with web access to discover its beauty. On Tiour Uganda, users can explore tourism sites, browse available tour packages, and find contact details for tour agents. Leveraging my MERN stack skills, I developed both the frontend and backend of the platform.",
+      "Tour Uganda was created out of my deep love for my country. I wholeheartedly believe that Uganda is the Pearl of Africa, and I wanted to provide an opportunity for everyone with web access to discover its beauty. On Tiour Uganda, users can explore tourism sites, browse available tour packages, and find contact details for tour agents. Leveraging my MERN stack skills, I developed both the frontend and backend of the platform.",
   },
   {
     title: "Demo estate",
@@ -54,7 +54,7 @@ export const Projects = () => {
   return (
     <>
       <div className=' h-fit py-10 bg-black text-white w-screen overflow-hidden'>
-        <div className='  text-4xl  ml-2 my-4 p-4 font-medium'>My Work</div>
+        <div className='  text-2xl  ml-2 my-4 p-4 font-medium'>My Work</div>
 
         <div className='md:grid md:grid-cols-3 md:justify-items-center md:gap-4  flex flex-col justify-center items-center'>
           {work.map((item) => (
