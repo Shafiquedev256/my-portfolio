@@ -59,16 +59,16 @@ export const Projects = () => {
         <div className='md:grid md:grid-cols-3 md:justify-items-center md:gap-4  flex flex-col justify-center items-center'>
           {work.map((item) => (
             <div
-              className='m-3 relative text-white w-[333px] md:w-[400px] h-fit bg-white rounded-md '
+              className='m-3 relative text-white w-[300px] md:w-[333px] h-fit bg-white rounded-md '
               key={item.url}
               onClick={() => setOpen(item.title)}
             >
               {open == item.title && (
-                <div className='w-[100%] h-[100%] rounded-md absolute flex flex-col justify-between bg-gray-900 font-medium text-gray-300 p-2 top-0 z-10'>
-                  <div>{item.description}</div>
+                <div className='w-[100%] h-[100%] p-1 rounded-md absolute flex flex-col space-y-3 bg-gray-900 font-medium text-gray-300  top-0 z-10'>
+                  <div className='text-sm'>{item.description}</div>
                   <a
                     href={item.url}
-                    className='text-center text-white w-fit h-fit p-3 rounded-md bg-rose-600'
+                    className='text-center text-white w-fit h-fit p-2 rounded-md bg-rose-600'
                   >
                     Live demo
                   </a>

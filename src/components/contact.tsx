@@ -8,12 +8,12 @@ export const Email_me = () => {
   const [message, setMessage] = useState("");
 
   return (
-    <div className='bg-black p-3 '>
-      <div className='  text-2xl  ml-2 my-4 p-4 font-medium text-white text-center'>
+    <div className='bg-black p-1 '>
+      <div className='  text-2xl  ml-2 my-4 py-4 font-medium text-white text-center'>
         Send me a message
       </div>
-      <div className='text-white bg-black flex justify-center items-center my-6'>
-        <form action='' className='flex flex-col md:w-[50%]'>
+      <div className='text-white bg-black flex md:justify-center md:items-center my-6'>
+        <form action='' className='flex flex-col md:w-[50%]  w-[300px]'>
           <div className='flex flex-row space-x-3'>
             <div className='flex flex-col w-1/2'>
               <label className='font-medium' htmlFor='name'>

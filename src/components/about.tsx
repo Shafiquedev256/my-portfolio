@@ -5,7 +5,7 @@ export const About = () => {
     <div className=''>
       <div className='font-medium text-3xl ml-2 my-3'>About Me</div>
       <div className='md:flex md:flex-row border-gradient border-0 border-l-8 ml-2'>
-        <div className='  text-gray-900 font-medium  pl-4 m-2 space-y-2'>
+        <div className='  text-gray-900 font-medium text-sm pl-4 m-2 space-y-2'>
           <p>I'm from Kampala Uganda.</p>
           <p>
             I developed an interest in programming while searching for a way to
