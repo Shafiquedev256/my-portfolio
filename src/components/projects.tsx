@@ -1,7 +1,7 @@
 import { useState } from "react";
 import gamestoreImg from "../assets/Screenshot (1).png";
 import tourUgImg from "../assets/Screenshot (2).png";
-import realestate from "../assets/Screenshot (3).png";
+import realestate from "../assets/Screenshot (10).png";
 const work = [
   {
     title: "Game store",
@@ -15,7 +15,7 @@ const work = [
     ],
     url: "https://games-store-sandy.vercel.app/",
     img: gamestoreImg,
-    highlight: "Mern stack  e-commerce website for video games ",
+    highlight: "E-commerce website for video games ",
     shadow: "shadow-red-600",
     description:
       "The game store was created to facilitate access to premium video games for enthusiasts worldwide. It allows users to easily browse, search, view game details, watch trailers, add games to their cart, and checkout desired items. Leveraging my Node.js and MERN stack expertise, I designed both the backend and frontend components of the platform.",
@@ -32,20 +32,28 @@ const work = [
     ],
     url: "https://tour-ug.vercel.app/",
     img: tourUgImg,
-    highlight: "Mern stack  tourism website for Uganda ",
+    highlight: "Tourism website for Uganda ",
     shadow: "shadow-green-600",
     description:
-      "Tour Uganda was created out of my deep love for my country. I wholeheartedly believe that Uganda is the Pearl of Africa, and I wanted to provide an opportunity for everyone with web access to discover its beauty. On Tiour Uganda, users can explore tourism sites, browse available tour packages, and find contact details for tour agents. Leveraging my MERN stack skills, I developed both the frontend and backend of the platform.",
+      "Tour Uganda was born from my profound love for my country. I truly believe Uganda is the Pearl of Africa, and I wanted to share its beauty with everyone who can access the web. On Tour Uganda, users can discover tourism sites, check out available tour packages, and get in touch with tour agents. Using my MERN stack skills, I built both the frontend and backend of the platform.",
   },
   {
-    title: "Demo estate",
-    tools: ["React", "Tailwind css", "Typescript", "Redux"],
-    url: "https://demoproperties.vercel.app/",
+    title: "Finders",
+    tools: [
+      "Socket.io",
+      "React",
+      "Tailwind css",
+      "Typescript",
+      "Redux",
+      "Express js",
+      "Mongo DB",
+    ],
+    url: "https://finders.vercel.app/",
     img: realestate,
-    highlight: "Frontend of a real estate listing website ",
+    highlight: "Website for Missing people ",
     shadow: "shadow-white",
     description:
-      "This platform is designed with passion to showcase the finest properties, making your search for your dream home effortless. Our aim is to assist real estate agencies in listing their properties and displaying their contact information. Users can explore listings, enjoy detailed descriptions, and view high-quality images.",
+      "I created this website because my friend went missing once, and it was really tough. I wanted to help others who are searching for their missing loved ones. So, I created Finders to assist people in finding their missing loved ones. Users can use features like a community chat room to share information and support. The platform lets users post details about missing individuals, turning the search into a team effort.",
   },
 ];
 

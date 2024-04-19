@@ -21,12 +21,69 @@ export const Skills = () => {
         <div>
           <div className='text-2xl  my-3 pl-3 font-medium'>Tools</div>
           <ul className='space-y-1 p-3 font-medium text-sm'>
-            <li>React js</li>
-            <li>Tailwind css</li>
-            <li>Redux</li>
-            <li>Express js</li>
-            <li>Mongo dB</li>
-            <li>Node js</li>
+            <div className='flex flex-row space-x-2 items-center'>
+              <img
+                src='https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat'
+                alt=''
+              />
+              <li>React js</li>
+            </div>
+            <div className='flex flex-row space-x-2 items-center'>
+              <img
+                src='https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white&style=flat'
+                alt=''
+              />
+              <li>Tailwind css</li>
+            </div>
+            <div className='flex flex-row space-x-2 items-center'>
+              <img
+                src='https://img.shields.io/badge/-Redux-764ABC?logo=redux&logoColor=white&style=flat'
+                alt=''
+              />
+              <li>Redux</li>
+            </div>
+            <div className='flex flex-row space-x-2 items-center'>
+              <img
+                src='https://img.shields.io/badge/-Express.js-000000?logo=express&logoColor=white&style=flat'
+                alt=''
+              />
+              <li>Express js</li>
+            </div>
+            <div className='flex flex-row space-x-2 items-center'>
+              <img
+                src='https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white&style=flat'
+                alt=''
+              />
+              <li>Mongo DB</li>
+            </div>
+            <div className='flex flex-row space-x-2 items-center'>
+              <img
+                src='https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat'
+                alt=''
+              />
+              <li>Node js</li>
+            </div>
+            <div className='flex flex-row space-x-2 items-center'>
+              <img
+                src='https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat'
+                alt=''
+              />
+              <li>Git</li>
+            </div>
+            <div className='flex flex-row space-x-2 items-center'>
+              <img
+                src='https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=flat'
+                alt=''
+              />
+              <li>Git Hub</li>
+            </div>
+            <div className='flex flex-row space-x-2 items-center'>
+              <img
+                src='https://img.shields.io/badge/-Postman-FF6C37?logo=postman&logoColor=white&style=flat'
+                alt=''
+              />
+              <li>Post man</li>
+            </div>
           </ul>
         </div>
       </div>
